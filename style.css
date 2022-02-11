@@ -1,18 +1,75 @@
-html {
-    font-family: Arial, Helvetica, sans-serif;  
+html { 
+    padding-left: 20%;
+    padding-right: 20%;;
 }
-.section1, .section2, .section3, .footer {
-    margin-top: 150px;
-    margin-bottom: 50px;
+body {background-color: #d7e3fa;
+}
+body, ul, li { 
+    font-family: serif;
+    text-align: center;
 }
 h1 {
-    font-size: 100px;
+    font-size: xx-large;
+    color: #4AA3A2;
+    text-decoration: underline;
 }
-div.section1.bouton-nom {
-    color: #FFFFFF;
-    background-color: blue;
-    border-radius: 5px;
-    padding: 20px 50px 20px 50px;
+h2 {
+    font-size: x-large;
+    color: #4AA3A2;
+}
+p, em, table, ul, li, blockquote {
     font-size: 20px;
-    margin-top: 15px;
+}
+img {
+    margin-top: 50px;
+    float: center;
+}
+section {
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom: 1px solid  rgb(172, 78, 175)
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+table, td {
+    border: 1px solid blueviolet;
+    border-collapse: collapse;
+}
+td {
+    padding: 10px 20px 10px 20px;
+    list-style-type: none;
+}
+th {
+    font-weight: bold;
+    padding: 5px 5px 5px 5px;
+    background-color: rgb(93, 78, 175);
+    color: #4AA3A2;
+}
+tr:nth-child(even) {
+    background-color: rgb(93, 78, 175);
+}
+tr:nth-child(odd) {
+    background-color: #4AA3A2;
+}
+.ananas {list-style-type: none; padding: 0;
+}
+.loisirs {
+    color: blueviolet;
+}
+.loisirs, li {
+    text-align: left;
+}
+h3 {
+    font-size: x-large;
+    color: #4AA3A2;
+}
+footer {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    justify-items: baseline;
 }
