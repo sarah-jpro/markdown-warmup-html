@@ -1,0 +1,18 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;  
+}
+.section1, .section2, .section3, .footer {
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+h1 {
+    font-size: 100px;
+}
+div.section1.bouton-nom {
+    color: #FFFFFF;
+    background-color: blue;
+    border-radius: 5px;
+    padding: 20px 50px 20px 50px;
+    font-size: 20px;
+    margin-top: 15px;
+}
